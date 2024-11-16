@@ -1,0 +1,23 @@
+# Pastas e arquivos de configuração do VS Code
+.vscode/
+
+# Ambientes virtuais do Python
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos para o Visual Studio Code
+*.code-workspace
+
+# arquivo .env
+.env
