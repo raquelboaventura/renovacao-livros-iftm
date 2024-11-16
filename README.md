@@ -60,7 +60,7 @@ Se você deseja automatizar a execução do script ao iniciar o sistema ou em ho
 Crie um arquivo __.bat__ (por exemplo, executar_script.bat) com o seguinte conteúdo:
 ```bash
 @echo off
-cd C:\Users\raque\OneDrive - IFTM\Documentos\Projetos\automacao-renovacao-livros
+cd C:caminho/do/seu/projeto
 call .venv\Scripts\activate
 python main.py
 ```
