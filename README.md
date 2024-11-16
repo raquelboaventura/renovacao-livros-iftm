@@ -119,6 +119,8 @@ class Renovacao:
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para contribuir com o projeto!
 
 
+![Recriando o jogo da cobrinha com JavaScript](timer_15105983.png)
+
 ---
 
 ### **Explicações do README:**
@@ -128,6 +130,8 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para contribuir 
 - **Exemplo de código:** Apresentação da classe `Renovacao` e seus métodos para entender a lógica de automação.
 
 Se precisar de ajustes ou detalhes adicionais, posso modificar o README! 😊
+
+
 
 
 
