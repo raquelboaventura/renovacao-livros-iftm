@@ -76,12 +76,13 @@ class Renovacao:
             return response
         except requests.exceptions.HTTPError as http_err:
             logging.error(f"Erro HTTP ao consultar livros: {http_err}")
+            return None  # Retorna None caso haja erro
         except requests.exceptions.RequestException as req_err:
             logging.error(f"Erro de requisição ao consultar livros: {req_err}")
+            return None
         except Exception as err:
             logging.error(f"Erro inesperado ao consultar livros: {err}")
-
-        return None
+            return None
 
     def renovar(self, livros):
         """
